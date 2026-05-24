@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://yourdomain.com', 'https://www.yourdomain.com'], // Replace with your actual Namecheap domain
+  origin: ['https://beranosprinting.site', 'https://www.beranosprinting.site'], // Allow your domain
   credentials: false
 }));
 app.use(express.json());
